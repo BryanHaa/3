@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<HTML lang="en">
+
+  <HEAD>
+
+    <TITLE>WORK AVALABILITY</TITLE>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </HEAD>
+
+  <BODY style="background-color:powderblue;">
+    <header>
+      <h1>
+        Welcome to Work Availability
+      </h1>
+    </header>
+
+    <button onclick="getLocation()">Check In</button>
+    <div id="check">
+      <span v-if="done">Welcome to work</span>
+    </div>
+    <p id="demo"></p>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#home.html">Home</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="#openshift.html">Open shift</a></li>
+          <li><a href="#workchat.html">Work Chat</a></li>
+          <li><a href="#myschedule.html">My Schedule</a></li>
+          <li><a href="#staffcontact.html">Staff Contact</a></li>
+        </ul>
+        <input type="text" placeholder="Search..">
+        <p id="location">
+        Show location
+        </p>
+      </nav>
+      <main>
+        <info>
+          <p id="date"></p>
+          <table style="width:100%">
+            <tr>
+              <th>Time</th>
+              <th>Name</th>
+              <th>Location</th>
+            </tr>
+            <tr>
+              <th>9.00am-5.00pm</th>
+              <th>BryanHa with Kent</th>
+              <th>Westfield Doncaster</th>
+            </tr>
+          </table>
+        </info>
+
+      </main>
+    </section>
+  </BODY>
+
+</HTML>
